@@ -1,0 +1,183 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+
+.Hero{
+    
+    
+   
+    background-image: url(images/header-bg.png);
+    background-position: center;
+    background-size: cover;
+    
+
+
+}
+.container{
+    height: 550px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding:  100px;
+    align-items: center;
+}
+.herosingle{
+    flex-basis: 50%;
+    
+
+}
+.herosingle img{
+    max-width: 80%;
+}
+.heroleft{
+    padding-right: 150px;
+}
+.heroleft h1{
+    font-size: 35px;
+    font-weight: 300;
+}
+.heroleft h2{
+    font-size: 60px;
+    font-weight: 700;
+    color: #EC4C7A;
+}
+.heroleft p{
+    font-size: 20px;
+    line-height: 26px;
+    margin-top: 20px;
+}
+.heroleft a{
+    display: inline-block;
+    padding: 15px 35px;
+    background-color: #EC4C7A;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: .3s;
+}
+.heroleft a:hover{
+    display: inline-block;
+    padding: 15px 35px;
+    background-color: #000000;
+    transition: .3s;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+
+
+.biography{
+    background-image: url(images/biography-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.lcontainer{
+    background-image: url(images/latest-work-bg.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.portfolioContainer{
+    display: flex;
+
+    height: 500px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 100px;
+    align-items: center;
+    
+
+}
+.portfolioContainer .portfoli{
+    margin: 0 15px;
+}
+.lcontainer h1{
+    text-align: center;
+    margin-bottom: -90px;
+    padding-top: 110px;
+    font-size: 40px;
+    color: #333;
+    
+}
+
+.footer{
+    background-image: url(images/footer-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+.foottercontainer{
+    
+
+    height: 500px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 100px;
+    align-items: center;
+    padding-top: 150px;
+    text-align: center;
+}
+.foottercontainer h5{
+    font-size: 22px;
+    color: #333;
+}
+.foottercontainer h6{
+    font-size: 14px;
+    color: rgba(51, 51, 51, 0.767);
+    margin-top: 10px;
+
+}
+.foottercontainer p{
+    font-size: 16px;
+    color: rgba(51, 51, 51, 0.767);
+    line-height: 22px;
+    margin-top: 20px;
+}
+
+.pinkAria{
+    background-color: #EC4C7A;
+    background-image: linear-gradient(45deg, #EC4C7A, #ff044b);
+    padding: 45px;
+    border-radius: 20px;
+    
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 30px;
+    min-height: 170px;
+    
+}
+.pinkAria h5{
+    color: #fff;
+    
+    border-bottom: 1px solid rgba(255, 255, 255, 0.507);
+    padding-bottom: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.pinkAria h6{
+color: #fff;
+font-size: 35px;
+font-weight: 200;
+text-decoration: underline;
+}
+
+
+
+
+    
